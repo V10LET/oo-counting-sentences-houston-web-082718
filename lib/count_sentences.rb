@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
+    if self.include
     paragraph = self.split(".")
     paragraph.length
   end
