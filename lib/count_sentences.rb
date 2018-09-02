@@ -15,7 +15,6 @@ class String
   end
 
   def count_sentences
-    paragraph = self.split(".")
-    paragraph.length
+    self.split(".", "!", "?")
   end
 end
